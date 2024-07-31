@@ -6,6 +6,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][119]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
 formfactor=0
@@ -109,8 +110,8 @@ plugin=org.kde.plasma.kicker
 
 [Containments][126][Applets][158][Configuration]
 PreloadWeight=100
-popupHeight=378
-popupWidth=300
+popupHeight=293
+popupWidth=561
 
 [Containments][126][Applets][158][Configuration][ConfigDialog]
 DialogHeight=540
@@ -207,12 +208,8 @@ latitude=33.863663
 longitude=35.597227
 stationID=IMATND12
 
-[Containments][126][Applets][226]
-immutability=1
-plugin=com.github.boraerciyas.controlcentre
-
 [Containments][126][Applets][226][Configuration]
-PreloadWeight=90
+PreloadWeight=85
 popupHeight=360
 popupWidth=360
 
@@ -221,7 +218,7 @@ immutability=1
 plugin=org.kde.plasma.shutdownorswitch
 
 [Containments][126][Applets][227][Configuration]
-PreloadWeight=100
+PreloadWeight=95
 popupHeight=249
 popupWidth=216
 
@@ -421,17 +418,8 @@ sortByRepo=true
 DialogHeight=540
 DialogWidth=720
 
-[Containments][132][Applets][223][Configuration][General]
-archNews=true
-aur=true
-checkOnStartup=true
-flatpak=true
-plasmoids=true
-wrapper=/usr/bin/paru
-
-[Containments][132][Applets][223][Configuration][Upgrade]
+[Containments][132][Applets][238][Configuration][Upgrade]
 refreshShell=true
-terminal=/usr/bin/konsole
 upgradeFlags=true
 
 [Containments][132][Applets][228]
@@ -446,10 +434,6 @@ PreloadWeight=42
 
 [Containments][132][Applets][234][Configuration]
 PreloadWeight=42
-
-[Containments][132][Applets][238][Configuration][Upgrade]
-refreshShell=true
-upgradeFlags=true
 
 [Containments][132][ConfigDialog]
 DialogHeight=540
@@ -491,24 +475,27 @@ plugin=zayron.simple.separator
 immutability=1
 plugin=zayron.simple.separator
 
+[Containments][168][Applets][231]
+immutability=1
+plugin=com.himdek.kde.plasma.overview
+
+[Containments][168][Applets][231][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][168][Applets][232]
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][168][Applets][233]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][168][Applets][233][Configuration]
-localPath=/home/xero/.local/share/plasma_icons/xapit-cli.desktop
-url=file:///usr/share/applications/xapit-cli.desktop
+[Containments][168][Applets][232][Configuration]
+PreloadWeight=55
 
 [Containments][168][ConfigDialog]
 DialogHeight=87
 DialogWidth=2560
 
 [Containments][168][General]
-AppletOrder=233;230;169;229;232
+AppletOrder=231;230;169;229;232
 
 [Containments][44]
 activityId=
@@ -546,10 +533,6 @@ plugin=org.kde.plasma.cameraindicator
 [Containments][44][Applets][193]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][44][Applets][222]
-immutability=1
-plugin=com.github.exequtic.apdatifier
 
 [Containments][44][Applets][45]
 immutability=1
@@ -677,6 +660,8 @@ knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipbo
 PreloadWeight=90
 
 [Containments][87]
+ItemGeometries-1912x577=
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
 formfactor=0
@@ -693,7 +678,7 @@ DialogWidth=720
 [Containments][87][General]
 ToolBoxButtonState=top
 ToolBoxButtonX=366
-ToolBoxButtonY=56
+ToolBoxButtonY=58
 
 [Containments][87][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/Xero-Plasma21.jpg

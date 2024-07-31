@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoid-wunderground\n"
 "Report-Msgid-Bugs-To: https://github.com/k-donn/plasmoid-wunderground\n"
-"POT-Creation-Date: 2024-06-04 13:51-0400\n"
+"POT-Creation-Date: 2024-07-30 16:10-0400\n"
 "PO-Revision-Date: 2023-07-03 20:36+0100\n"
 "Last-Translator: AleksZZ <alexyvp@mail.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -157,26 +157,29 @@ msgstr ""
 msgid "Write to console.log:"
 msgstr "Записывать в console.log:"
 
-#: ../contents/ui/config/ConfigFontFamily.qml
-msgctxt "Use default font"
-msgid "Default"
-msgstr "По умолчанию"
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Find Station"
+msgstr "Найти станцию"
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Enter Station"
 msgstr "Ввести станцию"
 
 #: ../contents/ui/config/ConfigStation.qml
-msgid "Weatherstation ID:"
-msgstr "ID метеостанции:"
-
-#: ../contents/ui/config/ConfigStation.qml
-msgid "Get Nearest Station"
-msgstr "Получить ближайшую станцию"
+msgid "Station Info"
+msgstr ""
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Uses WGS84 geocode coordinates"
 msgstr "Геокод в формате WGS84"
+
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Weatherstation ID:"
+msgstr "ID метеостанции:"
+
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Weatherstation Name:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Longitude:"
@@ -189,10 +192,6 @@ msgstr "Широта:"
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Refresh period (s):"
 msgstr "Интервал обновления (сек):"
-
-#: ../contents/ui/config/ConfigStation.qml
-msgid "Find Station"
-msgstr "Найти станцию"
 
 #: ../contents/ui/config/ConfigUnits.qml
 msgctxt "The unit system"
@@ -293,8 +292,49 @@ msgstr ""
 msgid "Loading data..."
 msgstr "Загрузка данных ..."
 
+#: ../contents/ui/lib/BackgroundToggle.qml
+msgid "Desktop Widget:"
+msgstr ""
+
 #: ../contents/ui/lib/ConfigBtn.qml
 msgid "Configure Wunderground"
+msgstr ""
+
+#: ../contents/ui/lib/ConfigFontFamily.qml
+msgctxt "Use default font"
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Saved Weather Stations"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Remove Selected"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Confirm Remove %1"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Add"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Remove"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Select"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Cancel"
+msgstr ""
+
+#: ../contents/ui/lib/StationPicker.qml
+msgid "Choose…"
 msgstr ""
 
 #: ../contents/ui/main.qml
@@ -335,6 +375,9 @@ msgstr ""
 #: ../contents/ui/TopPanel.qml
 msgid "High: %1 Low: %2"
 msgstr "Высокий: %1 Низкий: %2"
+
+#~ msgid "Get Nearest Station"
+#~ msgstr "Получить ближайшую станцию"
 
 #~ msgid "Wind from: %1"
 #~ msgstr "Напралвение ветра: %1"

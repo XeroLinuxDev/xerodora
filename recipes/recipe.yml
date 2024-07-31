@@ -62,7 +62,6 @@ modules:
        - gnome-disk-utility
        - dconf-editor
        - yad
-       - filezilla
        - hardinfo2
        - timeshift
        - wine
@@ -88,6 +87,14 @@ modules:
        - pulseaudio-utils
        - python3-pip
        - samba
+       - samba-client
+       - samba-common
+       - samba-libs
+       - samba-tools
+       - samba-usershares
+       - samba-winbind
+       - samba-common-libs
+       - samba-common-tools
        - usbmuxd
        - zsh
        - libadwaita-qt5
@@ -114,17 +121,10 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          - com.vivaldi.Vivaldi
-         - com.obsproject.Studio
-         - com.obsproject.Studio.Plugin.waveform
-         - com.obsproject.Studio.Plugin.WebSocket
-         - com.obsproject.Studio.Plugin.SceneSwitcher
-         - com.obsproject.Studio.Plugin.ScaleToSound
-         - com.obsproject.Studio.Plugin.OBSVkCapture
-         - com.obsproject.Studio.Plugin.MoveTransition
-         - com.obsproject.Studio.Plugin.Gstreamer
-         - com.obsproject.Studio.Plugin.GStreamerVaapi
-         - com.obsproject.Studio.Plugin.DroidCam
-         - com.obsproject.Studio.Plugin.BackgroundRemoval
+         - com.makemkv.MakeMKV
+         - de.haeckerfelix.Shortwave
+         - com.usebottles.bottles
+         - org.filezillaproject.Filezilla
          - com.github.KRTirtho.Spotube
          - dev.vencord.Vesktop
          - org.ferdium.Ferdium

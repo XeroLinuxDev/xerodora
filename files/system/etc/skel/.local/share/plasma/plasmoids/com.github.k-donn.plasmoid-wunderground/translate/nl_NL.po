@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoid-wunderground\n"
 "Report-Msgid-Bugs-To: https://github.com/k-donn/plasmoid-wunderground\n"
-"POT-Creation-Date: 2024-06-04 13:51-0400\n"
+"POT-Creation-Date: 2024-07-30 16:10-0400\n"
 "PO-Revision-Date: 2022-04-17 14:14+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <>\n"
@@ -158,26 +158,29 @@ msgstr ""
 msgid "Write to console.log:"
 msgstr "Wegschrijven naar console.log:"
 
-#: ../contents/ui/config/ConfigFontFamily.qml
-msgctxt "Use default font"
-msgid "Default"
-msgstr "Standaard"
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Find Station"
+msgstr "Weerstation zoeken"
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Enter Station"
 msgstr "Voer de naam in van een weerstation"
 
 #: ../contents/ui/config/ConfigStation.qml
-msgid "Weatherstation ID:"
-msgstr "Weerstation-id:"
-
-#: ../contents/ui/config/ConfigStation.qml
-msgid "Get Nearest Station"
-msgstr "Dichtstbijzijnde station gebruiken"
+msgid "Station Info"
+msgstr ""
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Uses WGS84 geocode coordinates"
 msgstr "Hiervoor worden de WGS84-geocodecoördinaten gebruikt"
+
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Weatherstation ID:"
+msgstr "Weerstation-id:"
+
+#: ../contents/ui/config/ConfigStation.qml
+msgid "Weatherstation Name:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Longitude:"
@@ -190,10 +193,6 @@ msgstr "Breedtegraad:"
 #: ../contents/ui/config/ConfigStation.qml
 msgid "Refresh period (s):"
 msgstr "Periodiek bijwerken (in sec.):"
-
-#: ../contents/ui/config/ConfigStation.qml
-msgid "Find Station"
-msgstr "Weerstation zoeken"
 
 #: ../contents/ui/config/ConfigUnits.qml
 msgctxt "The unit system"
@@ -296,8 +295,49 @@ msgstr ""
 msgid "Loading data..."
 msgstr "Bezig met laden…"
 
+#: ../contents/ui/lib/BackgroundToggle.qml
+msgid "Desktop Widget:"
+msgstr ""
+
 #: ../contents/ui/lib/ConfigBtn.qml
 msgid "Configure Wunderground"
+msgstr ""
+
+#: ../contents/ui/lib/ConfigFontFamily.qml
+msgctxt "Use default font"
+msgid "Default"
+msgstr "Standaard"
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Saved Weather Stations"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Remove Selected"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Confirm Remove %1"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Add"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Remove"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Select"
+msgstr ""
+
+#: ../contents/ui/lib/StationPickerDialog.qml
+msgid "Cancel"
+msgstr ""
+
+#: ../contents/ui/lib/StationPicker.qml
+msgid "Choose…"
 msgstr ""
 
 #: ../contents/ui/main.qml
@@ -338,6 +378,9 @@ msgstr ""
 #: ../contents/ui/TopPanel.qml
 msgid "High: %1 Low: %2"
 msgstr "Hoog: %1 - Laag: %2"
+
+#~ msgid "Get Nearest Station"
+#~ msgstr "Dichtstbijzijnde station gebruiken"
 
 #~ msgid "Wind from: %1"
 #~ msgstr "Windrichting: %1"

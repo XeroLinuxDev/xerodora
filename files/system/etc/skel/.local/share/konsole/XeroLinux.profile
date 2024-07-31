@@ -6,7 +6,7 @@ Font=Hack Nerd Font Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 CursorShape=1
 
 [General]
-Command=/bin/zsh
+Command=/bin/bash
 Name=XeroLinux
 Parent=FALLBACK/
 StartInCurrentSessionDir=true
