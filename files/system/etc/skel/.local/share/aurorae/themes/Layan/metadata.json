@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice"
+            }
+        ],
+        "Category": "",
+        "EnabledByDefault": true,
+        "Id": "Layan",
+        "License": "GPL v3",
+        "Name": "Layan",
+        "Version": "1.0"
+    }
+}

@@ -20,10 +20,85 @@ modules:
 
   - type: rpm-ostree
     repos:
-       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+       - https://repo.vivaldi.com/archive/vivaldi.repo
     install:
-      # - micro
-      # - starship
+       - vivaldi-stable
+       - bat
+       - fastfetch
+       - eza
+       - wget
+       - git
+       - dialog
+       - yaml-cpp
+       - gtk-update-icon-cache
+       - piper
+       - solaar
+       - inxi
+       - dnf-plugins-core
+       - git-extras
+       - fira-code-fonts
+       - alerque-libertinus-fonts
+       - source-foundry-hack-fonts
+       - jetbrains-mono-fonts
+       - kvantum
+       - gtk-murrine-engine
+       - gtk2-engines
+       - gnome-themes-extra
+       - xmlstarlet
+       - unzip
+       - jq
+       - google-noto-emoji-color-fonts
+       - meld
+       - tree
+       - btop
+       - unrar
+       - p7zip
+       - hwinfo
+       - nodejs
+       - hddtemp
+       - gnome-disk-utility
+       - dconf-editor
+       - yad
+       - filezilla
+       - hardinfo2
+       - timeshift
+       - wine
+       - wine-mono
+       - wineglass
+       - winetricks
+       - mpv
+       - kdenlive
+       - libreoffice
+       - hugo
+       - hw-probe
+       - bash-color-prompt
+       - gcc
+       - glow
+       - gum
+       - ifuse
+       - input-leap
+       - input-remapper
+       - libmobiledevice
+       - libxcrypt-compat
+       - lm_sensors
+       - make
+       - nerd-fonts
+       - puleaudio-utils
+       - python3-pip
+       - samba
+       - samba-decrpc
+       - samba-ldb-ldap-modules
+       - samba-winbind-clients
+       - samba-winbind-modules
+       - usbmuxd
+       - zsh
+       - libadwaita-qt5
+       - libadwaita-qt6
+       - kde-runtime-docs
+       - kdenetwork-filesharing
+       - kdeplasma-addons
+       - plasma-wallpapers-dynamic
+       - iotop
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -38,8 +113,21 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - org.mozilla.firefox
-        # - org.gnome.Loupe
+         - com.obsproject.Studio
+         - com.obsproject.Studio.Plugin.waveform
+         - com.obsproject.Studio.Plugin.WebSocket
+         - com.obsproject.Studio.Plugin.SceneSwitcher
+         - com.obsproject.Studio.Plugin.ScaleToSound
+         - com.obsproject.Studio.Plugin.OBSVkCapture
+         - com.obsproject.Studio.Plugin.MoveTransition
+         - com.obsproject.Studio.Plugin.Gstreamer
+         - com.obsproject.Studio.Plugin.GStreamerVaapi
+         - com.obsproject.Studio.Plugin.DroidCam
+         - com.obsproject.Studio.Plugin.BackgroundRemoval
+         - com.github.KRTirtho.Spotube
+         - dev.vencord.Vesktop
+         - org.ferdium.Ferdium
+         - com.spotify.Client
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).

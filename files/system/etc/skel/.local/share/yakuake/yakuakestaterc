@@ -1,0 +1,13 @@
+[MainWindow]
+2 screens: Height=432
+2 screens: Width=1344
+2 screens: XPosition=2208
+2 screens: YPosition=0
+3200x1800 screen: Height=810
+3200x1800 screen: Width=2240
+3200x1800 screen: XPosition=480
+3200x1800 screen: YPosition=0
+DP-1-1 eDP-1=eDP-1
+DP-1-2 eDP-1=eDP-1
+State=AAAA/wAAAAD9AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA
+eDP-1=eDP-1
