@@ -18,6 +18,10 @@ modules:
                        # while putting files in /etc/ is done on booted system by system administrators.
                        # read more about this in files module reference.
 
+  - type: scripts
+    scripts:
+      - charm-repo.sh
+
   - type: rpm-ostree
     repos:
        # - https://repo.vivaldi.com/archive/vivaldi.repo
@@ -98,6 +102,9 @@ modules:
        - kdeplasma-addons
        - plasma-wallpapers-dynamic
        - iotop
+       - ima
+       - ImageMagick
+       - dolphin-plugins
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
