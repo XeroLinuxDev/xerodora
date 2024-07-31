@@ -20,7 +20,7 @@ modules:
 
   - type: script
     scripts:
-      - charm-repo.sh
+      - custom.sh
 
   - type: rpm-ostree
     repos:
