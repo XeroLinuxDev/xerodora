@@ -20,9 +20,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-       - https://repo.vivaldi.com/archive/vivaldi.repo
+       # - https://repo.vivaldi.com/archive/vivaldi.repo
     install:
-       - vivaldi-stable
        - bat
        - fastfetch
        - eza
@@ -113,6 +112,7 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
+         - com.vivaldi.Vivaldi
          - com.obsproject.Studio
          - com.obsproject.Studio.Plugin.waveform
          - com.obsproject.Studio.Plugin.WebSocket
