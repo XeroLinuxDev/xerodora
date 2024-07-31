@@ -1,4 +1,4 @@
-# XeroDora &nbsp; [![build-ublue](https://github.com/darkxero-dev/xerodora/actions/workflows/build.yml/badge.svg)](https://github.com/darkxero-dev/xerodora/actions/workflows/build.yml)
+# XeroDora
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
