@@ -28,7 +28,6 @@ modules:
     install:
        - bat
        - fastfetch
-       - chezmoi
        - eza
        - wget
        - git
