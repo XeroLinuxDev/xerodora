@@ -70,7 +70,6 @@ modules:
        - winetricks
        - mpv
        - kdenlive
-       - libreoffice
        - hugo
        - hw-probe
        - bash-color-prompt
@@ -86,17 +85,6 @@ modules:
        - nerd-fonts
        - pulseaudio-utils
        - python3-pip
-       - samba
-       - samba-client
-       - samba-common
-       - samba-libs
-       - samba-tools
-       - samba-usershares
-       - samba-winbind
-       - samba-common-libs
-       - samba-common-tools
-       - usbmuxd
-       - zsh
        - libadwaita-qt5
        - libadwaita-qt6
        - kde-runtime-docs
@@ -110,6 +98,7 @@ modules:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
        - firefox
+       - plasma-discover
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
@@ -129,12 +118,16 @@ modules:
          - dev.vencord.Vesktop
          - org.ferdium.Ferdium
          - com.spotify.Client
+         - io.missioncenter.MissionCenter
+         - org.fedoraproject.MediaWriter
+         - io.github.flattool.Warehouse
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
       remove:
        - org.mozilla.firefox
+       - io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

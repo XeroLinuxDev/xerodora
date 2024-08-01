@@ -30,6 +30,10 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
 
+## Flatpaks
+
+After 2nd boot (Signed image), you will notice a bit of sluggish behavior, while Flatpaks are being installed. Keep that in mind. This is the way **uBlue** works. It's a decision by the devs not me. So please be patient while they install. You will get notified once the process is done. I would highly recommend you reboot one last time for safety & peace of mind.
+
 ## ISO
 
 If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
