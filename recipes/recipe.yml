@@ -42,7 +42,6 @@ modules:
        - fira-code-fonts
        - alerque-libertinus-fonts
        - source-foundry-hack-fonts
-       - jetbrains-mono-fonts
        - kvantum
        - gtk-murrine-engine
        - gtk2-engines
@@ -82,7 +81,6 @@ modules:
        - libxcrypt-compat
        - lm_sensors
        - make
-       - nerd-fonts
        - pulseaudio-utils
        - python3-pip
        - libadwaita-qt5
@@ -99,7 +97,19 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - plasma-discover
-      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode # don't add spaces or "Nerd Font" suffix
+        - Hack
+        - Meslo
+        - RobotoMono
+        - SourceCodePro
+        - Terminus
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
