@@ -4,7 +4,7 @@ name: xerodora
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -63,10 +63,6 @@ modules:
        - yad
        - hardinfo2
        - timeshift
-       - wine
-       - wine-mono
-       - wineglass
-       - winetricks
        - mpv
        - kdenlive
        - hugo
